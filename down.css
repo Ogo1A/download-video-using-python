@@ -1,0 +1,113 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #6a2a5b; /* Deep purple background */
+  color: #fff; /* White text color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full screen height */
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Heading styles */
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #ffb6c1; /* Light pink color for the title */
+}
+
+/* Paragraph text styles */
+p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #f1e6ff; /* Soft lavender color for instructions */
+}
+
+/* Form container */
+form {
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Subtle shadow effect */
+  width: 100%;
+  max-width: 500px; /* Limiting form width */
+}
+
+/* Label for input field */
+label {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  display: block;
+  color: #ffb6c1; /* Matching light pink color */
+}
+
+/* Input field styling */
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  font-size: 1rem;
+  border: 2px solid #ffb6c1;
+  border-radius: 8px;
+  background-color: #f1e6ff;
+  color: #6a2a5b;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #ff8daa;
+  background-color: #fff0f5;
+  outline: none;
+}
+
+/* Button styles */
+button {
+  padding: 12px 25px;
+  font-size: 1.2rem;
+  background-color: #ff8daa; /* Soft pink button */
+  border: none;
+  color: #6a2a5b;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  width: 100%;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #ffb6c1;
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(2px);
+}
+
+/* Footer styles (optional) */
+footer {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: #f1e6ff;
+  font-size: 1rem;
+}
+
+footer a {
+  color: #ffb6c1;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
